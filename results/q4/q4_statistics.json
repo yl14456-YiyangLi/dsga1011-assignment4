@@ -1,0 +1,94 @@
+{
+  "checkpoint": "google-t5/t5-small",
+  "added_regular_tokens": [
+    "<",
+    "<=",
+    "<>"
+  ],
+  "length_includes_special_tokens": false,
+  "truncation": false,
+  "input_prefix": "",
+  "text_processing": "Strip leading/trailing whitespace only",
+  "statistics": {
+    "before": {
+      "train": {
+        "number_of_examples": 4225,
+        "natural_language": {
+          "mean_length": 17.097278106508877,
+          "vocabulary_size": 791,
+          "max_length": 59,
+          "p95_length": 29,
+          "unknown_token_count": 0,
+          "examples_with_unknown": 0
+        },
+        "sql": {
+          "mean_length": 216.37254437869822,
+          "vocabulary_size": 555,
+          "max_length": 510,
+          "p95_length": 449,
+          "unknown_token_count": 510,
+          "examples_with_unknown": 393
+        }
+      },
+      "dev": {
+        "number_of_examples": 466,
+        "natural_language": {
+          "mean_length": 17.070815450643778,
+          "vocabulary_size": 465,
+          "max_length": 43,
+          "p95_length": 28,
+          "unknown_token_count": 0,
+          "examples_with_unknown": 0
+        },
+        "sql": {
+          "mean_length": 210.05364806866953,
+          "vocabulary_size": 395,
+          "max_length": 502,
+          "p95_length": 446,
+          "unknown_token_count": 55,
+          "examples_with_unknown": 45
+        }
+      }
+    },
+    "after": {
+      "train": {
+        "number_of_examples": 4225,
+        "natural_language": {
+          "mean_length": 17.097278106508877,
+          "vocabulary_size": 791,
+          "max_length": 59,
+          "p95_length": 29,
+          "unknown_token_count": 0,
+          "examples_with_unknown": 0
+        },
+        "sql": {
+          "mean_length": 216.20686390532543,
+          "vocabulary_size": 556,
+          "max_length": 510,
+          "p95_length": 449,
+          "unknown_token_count": 0,
+          "examples_with_unknown": 0
+        }
+      },
+      "dev": {
+        "number_of_examples": 466,
+        "natural_language": {
+          "mean_length": 17.070815450643778,
+          "vocabulary_size": 465,
+          "max_length": 43,
+          "p95_length": 28,
+          "unknown_token_count": 0,
+          "examples_with_unknown": 0
+        },
+        "sql": {
+          "mean_length": 209.89055793991417,
+          "vocabulary_size": 396,
+          "max_length": 502,
+          "p95_length": 446,
+          "unknown_token_count": 0,
+          "examples_with_unknown": 0
+        }
+      }
+    }
+  }
+}

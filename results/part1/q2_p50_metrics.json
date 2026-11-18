@@ -1,0 +1,7 @@
+{
+  "original_accuracy": 0.92896,
+  "transformed_accuracy": 0.87808,
+  "drop_percentage_points": 5.088000000000004,
+  "typo_probability": 0.5,
+  "test_examples": 25000
+}

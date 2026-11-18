@@ -1,0 +1,22 @@
+{
+  "output_dir": "/content/drive/MyDrive/DSGA1011_A4/part2/t5_scratch_nodrop_lr3e4_20261118_141503",
+  "finetune": false,
+  "dropout_rate": 0.0,
+  "learning_rate": 0.0003,
+  "batch_size": 16,
+  "test_batch_size": 16,
+  "max_n_epochs": 60,
+  "patience_epochs": 10,
+  "max_new_tokens": 512,
+  "seed": 42,
+  "optimizer_type": "AdamW",
+  "weight_decay": 0.0,
+  "scheduler_type": "linear",
+  "num_warmup_epochs": 1,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "torch_version": "2.14.1+cu130",
+  "precision": "float32",
+  "decoding": "greedy",
+  "gradient_clip_norm": 1.0,
+  "query_timeout_seconds": 10
+}

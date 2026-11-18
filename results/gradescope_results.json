@@ -1,0 +1,20 @@
+{
+  "source": "User-provided Gradescope results screenshot; first submitted prediction files",
+  "submission_id": "449594989",
+  "test_examples": 432,
+  "finetuned": {
+    "record_f1_percent": 81.65,
+    "record_em_percent": 79.17,
+    "sql_em_displayed_percent": 0.0,
+    "execution_errors": 39,
+    "performance_points_displayed": "25.00/25"
+  },
+  "scratch": {
+    "record_f1_percent": 54.31,
+    "record_em_percent": 51.16,
+    "sql_em_displayed_percent": 0.0,
+    "execution_errors": 34,
+    "extra_credit_threshold_met": true
+  },
+  "note": "SQL EM is transcribed exactly from Gradescope; hidden gold SQL and autograder implementation were not available for independent verification. These are informational metrics; staff assign final grades."
+}

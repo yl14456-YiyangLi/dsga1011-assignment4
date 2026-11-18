@@ -1,0 +1,24 @@
+{
+  "finetuned": {
+    "correct_records_without_error": 389,
+    "malformed_sql": 12,
+    "wrong_records": 52,
+    "schema_or_identifier": 8,
+    "timeout": 5,
+    "total_queries": 466,
+    "record_mismatches": 71,
+    "error_but_record_match": 6,
+    "different_sql_same_records_without_error": 66
+  },
+  "scratch": {
+    "correct_records_without_error": 279,
+    "wrong_records": 168,
+    "malformed_sql": 14,
+    "schema_or_identifier": 4,
+    "timeout": 1,
+    "total_queries": 466,
+    "record_mismatches": 184,
+    "error_but_record_match": 3,
+    "different_sql_same_records_without_error": 69
+  }
+}

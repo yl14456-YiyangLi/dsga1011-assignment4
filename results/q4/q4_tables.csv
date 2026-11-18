@@ -1,0 +1,5 @@
+stage,split,number_of_examples,mean_sentence_length,mean_sql_length,nl_vocabulary_size,sql_vocabulary_size
+before,train,4225,17.097,216.373,791,555
+before,dev,466,17.071,210.054,465,395
+after,train,4225,17.097,216.207,791,556
+after,dev,466,17.071,209.891,465,396
